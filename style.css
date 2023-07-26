@@ -1,0 +1,60 @@
+/* CSS to style the button and card container */
+  
+  
+
+
+body {
+    background: #1C7293; 
+    color: white;
+    font-family: 'Trebuchet MS', Arial;
+  }
+
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  h1 {
+    text-align: center;
+  }
+  
+  #cardContainer {
+    display: flex;
+    justify-content: center;
+  }
+  
+  #cardContainer > div {
+    background: #333;
+    color: white;
+    width: 160px;
+    height: 180px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+  }
+  
+  #cardContainer > div:first-child {
+    background: #d95550; 
+  }
+  
+  #cardContainer > div:nth-child(2) {
+    background: #55d990;
+  }
+  
+  #cardContainer > div:nth-child(3) {
+    background: #d99055;
+  }
+  
+  #cardContainer > div:nth-child(4) {
+    background: #5594d9;
+  }
+  
+  #cardContainer > div:nth-child(5) {
+    background: #df55d9;
+  }
