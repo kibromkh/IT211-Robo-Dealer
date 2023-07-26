@@ -6,7 +6,24 @@
 <body>
     <link rel="stylesheet" href="style.css">
 
-    <button onclick="drawCards()">Draw New Hand</button>
+    <button onclick="drawCards(); hideText();">Draw New Hand</button>
+
+<p id="text">Click the button to start the game/ reshuffle the cards.</p>
+
+<script>
+
+function hideText() {
+  document.getElementById("text").style.display = "none"; 
+}
+
+function drawCards() {
+  // Draw cards code
+}
+
+</script>
+
+    
+
     <div id="cardContainer"></div>
 
     <script src="script.js"></script>
